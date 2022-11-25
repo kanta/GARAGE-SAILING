@@ -56650,7 +56650,7 @@
   (gr_text "IO0" (at 101.704 56.868) (layer "F.SilkS") (tstamp 36f81ba9-7dd6-4ff0-a697-7089ed8bdf2e)
     (effects (font (size 1 1) (thickness 0.15)) (justify left))
   )
-  (gr_text "ANT" (at 121 52) (layer "F.SilkS") (tstamp 609e5069-0b6b-44b5-a3b5-9e8cf76b70b5)
+  (gr_text "ANT" (at 122.5 53.5) (layer "F.SilkS") (tstamp 609e5069-0b6b-44b5-a3b5-9e8cf76b70b5)
     (effects (font (size 1 1) (thickness 0.15)))
   )
   (gr_text "RESET" (at 89 54) (layer "F.SilkS") (tstamp 6d0e930b-743f-4dde-a3b1-6f5e9fd3077b)
@@ -56815,7 +56815,6 @@
     (format (units 3) (units_format 1) (precision 4))
     (style (thickness 0.15) (arrow_length 1.27) (text_position_mode 0) (extension_height 0.58642) (extension_offset 0.5) keep_text_aligned)
   )
-  (target plus (at 40 150) (size 5) (width 0.1) (layer "Edge.Cuts") (tstamp 7e61ab51-cbb1-4b94-801a-34a87b40bc16))
 
   (segment (start 99.655 59.35) (end 101.65 59.35) (width 0.3) (layer "F.Cu") (net 1) (tstamp 03e5e112-611b-4ec9-bc7e-0f910a6190f5))
   (segment (start 109 55.5) (end 109 59) (width 0.3) (layer "F.Cu") (net 1) (tstamp 0560e7bd-4d69-47cf-bcd2-40c43d52440f))
