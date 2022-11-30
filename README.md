@@ -1,5 +1,5 @@
 # GARAGE SAILING
-English
+[English](./README_en.md)
 
 梅田哲也 / ジョン・リチャーズ (Dirty Electronics) / ティム・ショウ / 堀尾寛太 
 <img width="605" alt="garage_sailing_flyer" src="https://user-images.githubusercontent.com/1097902/204686981-f3a3f201-2b15-42ff-ab51-40fe18db1662.png">
