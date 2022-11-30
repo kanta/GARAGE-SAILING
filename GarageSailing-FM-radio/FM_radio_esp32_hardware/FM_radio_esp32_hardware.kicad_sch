@@ -6,8 +6,8 @@
 
   (title_block
     (title "FM radio for GARAGE SAILING")
-    (date "2022-11-20")
-    (rev "v0.1.0")
+    (date "2022-11-26")
+    (rev "v1.0.0")
   )
 
   (lib_symbols
@@ -1932,6 +1932,15 @@
   (wire (pts (xy 144.78 107.95) (xy 142.24 107.95))
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid fe49dd3e-9f9f-4c5c-b1c1-9e438a5b9888)
+  )
+
+  (text "ESP32 program" (at 31.75 107.95 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid b0f67d00-898d-4d86-831c-879d20ea58d1)
+  )
+  (text "Top panel" (at 40.64 148.59 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid e93b4aa0-7fe2-4b97-9fb5-c5458e04e006)
   )
 
   (label "VBAT" (at 265.43 35.56 0)
