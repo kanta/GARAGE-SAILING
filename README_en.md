@@ -3,7 +3,7 @@
 
 Umeda Tetsuya / John Richards (Dirty Electronics) / Tim Shaw / Horio Kanta
 
-<img width="605" alt="garage_sailing_flyer" src="https://user-images.githubusercontent.com/1097902/204686981-f3a3f201-2b15-42ff-ab51-40fe18db1662.png">
+<a href="https://github.com/kanta/GARAGE-SAILING/blob/main/GarageSailing_Flyer.pdf"><img width="605" alt="garage_sailing_flyer" src="https://user-images.githubusercontent.com/1097902/204686981-f3a3f201-2b15-42ff-ab51-40fe18db1662.png"></a>
 
 Sound artists John Richards and Tim Shaw from the UK will be visiting Japan this winter. Both of them make DIY musical instruments and devices and are active internationally. <br />
 Do a Front have invited two Japanese artists, Tetsuya Umeda (Osaka) and Kanta Horio (Tokyo), to join Richards and Shaw who they have worked with before, to hold a live event-style exhibition with sailing as a motif.<br />
