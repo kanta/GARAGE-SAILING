@@ -7,7 +7,7 @@
 // #include <RDSParser.h>
 
 #define LED_POWER_PIN 4U
-constexpr uint8_t freqLedPin[3] = {15, 14, 13}; // RGB
+constexpr uint8_t freqLedPin[3] = {13, 15, 14}; // RGB
 #define scanSwPin 26U
 #define NUM_OF_TOUCH  3
 constexpr uint8_t touchPin[NUM_OF_TOUCH] = {T9, T8, T7};// 32:AUX, 33:Vol Up, 27:Vol Down
@@ -35,6 +35,7 @@ void scanSw()
     {
       touchState[i] = !touchState[i];
       Serial.printf("Touch%d: %d\n", i, touchState[i]);
+      digitalWrite(freqLedPin[i], touchState[i]);
       if (!touchState[i])
       {
         switch (i)
@@ -69,6 +70,17 @@ void scanSw()
       radio.seekUp(true);
     }
   }
+}
+
+void updateRgbLed()
+{
+  static uint8_t count = 0;
+  digitalWrite(freqLedPin[count], LOW);
+  count++;
+  if (count>=3)
+    count = 0;
+  Serial.printf("LED#:%d\n", count);
+  digitalWrite(freqLedPin[count], HIGH);
 }
 
 void updateRadioFreq()
@@ -130,6 +142,10 @@ void setup()
   Tasks.add([] {
     digitalWrite(LED_POWER_PIN, !digitalRead(LED_POWER_PIN));
   })->startIntervalMsecForCount(250,6);
+
+  // Tasks.add([] {
+  //   updateRgbLed();
+  // })->startIntervalMsec(1200);
 
 } // Setup
 

@@ -1934,6 +1934,11 @@
     (uuid fe49dd3e-9f9f-4c5c-b1c1-9e438a5b9888)
   )
 
+  (text "To Do: RGB led pin order is wrong. \nNeed to be fixed."
+    (at 180.34 50.8 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 311be90f-8d86-49a4-9be1-09786024336d)
+  )
   (text "ESP32 program" (at 31.75 107.95 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid b0f67d00-898d-4d86-831c-879d20ea58d1)
@@ -1959,7 +1964,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 3039dd8c-1684-41ea-888f-c61edb5b95cb)
   )
-  (label "LED_3_B" (at 99.06 50.8 0)
+  (label "LED_3_r" (at 99.06 50.8 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 3ae4cb2a-52da-424f-bc31-defcfe97640d)
   )
@@ -1979,7 +1984,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 7da992e9-9141-4eaa-aa2e-90ce0028041d)
   )
-  (label "LED_3_G" (at 99.06 53.34 0)
+  (label "LED_3_b" (at 99.06 53.34 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 8257232f-5404-4be4-9d0f-988051cca007)
   )
@@ -1995,7 +2000,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 90d4598d-ee99-4042-8eef-c70c60d8f153)
   )
-  (label "LED_3_R" (at 99.06 55.88 0)
+  (label "LED_3_g" (at 99.06 55.88 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 94db46eb-e7a9-4bfa-a008-44c3bf292f3f)
   )
@@ -3161,13 +3166,13 @@
       (reference "R4") (unit 1) (value "1k") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
     (path "/faaee96f-1cf0-4bf5-8d46-7e90745cc769"
-      (reference "R6") (unit 1) (value "220") (footprint "Resistor_SMD:R_0603_1608Metric")
+      (reference "R6") (unit 1) (value "470") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
     (path "/7348369c-b81b-45f2-af1e-23f8b53e2b15"
-      (reference "R7") (unit 1) (value "2k") (footprint "Resistor_SMD:R_0603_1608Metric")
+      (reference "R7") (unit 1) (value "220") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
     (path "/53b3d478-aede-49e5-a9c6-af0d51081e6b"
-      (reference "R8") (unit 1) (value "470") (footprint "Resistor_SMD:R_0603_1608Metric")
+      (reference "R8") (unit 1) (value "2k") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
     (path "/f9679bf7-9b73-4183-8072-4655075ba7d7"
       (reference "SW1") (unit 1) (value "SW_Push") (footprint "Button_Switch_SMD:SW_SPST_SKQG_WithoutStem")
