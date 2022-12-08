@@ -232,4 +232,18 @@ void setup()
 void loop()
 {
   Tasks.update();
+
+  if (Serial.available()>0)
+  {
+    uint8_t inByte = Serial.read();
+    switch (inByte)
+    {
+    case 's':
+      radio.seekUp(true);
+      break;
+    
+    default:
+      break;
+    }
+  }
 }
