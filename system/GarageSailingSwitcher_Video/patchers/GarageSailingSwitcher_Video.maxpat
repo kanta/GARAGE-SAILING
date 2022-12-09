@@ -1209,7 +1209,7 @@
 		"dependency_cache" : [ 			{
 				"name" : "compareFloats.js",
 				"bootpath" : "~/Dropbox/data/221099_doafromt_AIR/Garage-Sailing_git/system/GarageSailingSwitcher/code",
-				"patcherrelativepath" : "../code",
+				"patcherrelativepath" : "../../GarageSailingSwitcher/code",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
@@ -1224,7 +1224,7 @@
 , 			{
 				"name" : "videoRcvModule.maxpat",
 				"bootpath" : "~/Dropbox/data/221099_doafromt_AIR/Garage-Sailing_git/system/GarageSailingSwitcher/patchers",
-				"patcherrelativepath" : ".",
+				"patcherrelativepath" : "../../GarageSailingSwitcher/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
