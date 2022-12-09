@@ -734,7 +734,7 @@
 			}
 , 			{
 				"box" : 				{
-					"attr" : "floating",
+					"attr" : "fullscreen",
 					"id" : "obj-40",
 					"maxclass" : "attrui",
 					"numinlets" : 1,
@@ -1167,7 +1167,16 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-31", 0 ],
+					"order" : 1,
+					"source" : [ "obj-56", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-40", 0 ],
+					"order" : 0,
 					"source" : [ "obj-56", 0 ]
 				}
 
