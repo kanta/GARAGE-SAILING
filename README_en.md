@@ -55,3 +55,9 @@ https://tim-shaw.net/
 
 He presents live performances and installation works that create phenomena that occur autonomously on the spot by connecting energies such as sound, light, magnetism, and position with physical movement using everyday items and self- made devices. As an engineer, he develops and manufactures electronic musical instruments and interfaces based on tactile sensation and vibration. Recent activities and exhibitions include the unit “FINALBY( )” (from 2021) centered on ∈Y∋ from Boredoms, and “streaming heritage 2021 autumn” (Nagoya City, 2021).<br />
 https://horiokanta.com/
+
+## Credit
+- Ayako Kurata : Organizer
+- Arie Syarifuddin : Herbal medicine tea 
+- : Video grapher
+- : 
