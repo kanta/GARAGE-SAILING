@@ -1,7 +1,8 @@
 # GARAGE SAILING
-[English](./README_en.md)
+- [English](./README_en.md)
+- [GARAGE SAILING FMラジオ](https://github.com/kanta/GARAGE-SAILING/tree/main/GarageSailing-FM-radio)
 
-梅田哲也 / ジョン・リチャーズ (Dirty Electronics) / ティム・ショウ / 堀尾寛太 
+<Strong>梅田哲也 / ジョン・リチャーズ (Dirty Electronics) / ティム・ショウ / 堀尾寛太 </strong>
 <a href="https://github.com/kanta/GARAGE-SAILING/blob/main/GarageSailing_Flyer.pdf"><img width="605" alt="garage_sailing_flyer" src="https://user-images.githubusercontent.com/1097902/204686981-f3a3f201-2b15-42ff-ab51-40fe18db1662.png"></a>
 
 今冬、サウンド・アーティストのジョン・リチャーズ、ティム・ショウが来日します。2人はそれぞれ楽器や道具をDIYで製作し、UKを拠点に国際的に活躍しています。
